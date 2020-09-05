@@ -46,7 +46,7 @@
                 <div class="modal-body">
                     <button id="cropbutton" class="btn white-btn rounded-0" type="button"><i class="fa fa-crop"></i></button>
                     <button id="scalebutton" class="btn white-btn rounded-0" type="button">Scale</button>
-                    <button id="rotatebutton" class="btn white-btn rounded-0" type="button"><i class="fa fa-sync-alt"></i></button>
+                    <button id="rotatebutton" class="btn white-btn rounded-0" type="button"><i class="fa fa-undo"></i></button>
                     <button id="hflipbutton" class="btn white-btn rounded-0" type="button">H-flip</button>
                     <button id="vflipbutton" class="btn white-btn rounded-0" type="button">V-flip</button>
                     <br>
