@@ -35,8 +35,30 @@
 }
 </style>
 </div>
+    <!-- Pop up Login -->
+    <div class="modal fade imageView" id="imageView">
+        <div class='modal-dialog'>
+            <div class="modal-content login_modal" style="border-radius: 20px;">
+                <div class="modal-header" style="border-bottom: none;">
+                    <h5 class="modal-title">Edit Image <br> </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <button id="cropbutton" class="btn white-btn rounded-0" type="button"><i class="fa fa-crop"></i></button>
+                    <button id="scalebutton" class="btn white-btn rounded-0" type="button">Scale</button>
+                    <button id="rotatebutton" class="btn white-btn rounded-0" type="button"><i class="fa fa-sync-alt"></i></button>
+                    <button id="hflipbutton" class="btn white-btn rounded-0" type="button">H-flip</button>
+                    <button id="vflipbutton" class="btn white-btn rounded-0" type="button">V-flip</button>
+                    <br>
+                    <div id="views" class="my-3"></div>
+                    <button id="imageSubmit" class="btn golden-btn">Submit</button>
+                </div>
+            </div>          
+        </div>
+    </div>
+
 <div class="floating-chat">
-    <img class="img-fluid ico" src="img/bot.gif">
+    <img class="img-fluid ico" src="img/Curious.gif">
     <div class="chat">
         <div class="header">
             <span class="title">
@@ -51,6 +73,7 @@
             <li class="bot">hi, how may I help you?</li>
         </ul>
         <div class="footer">
+            <label class="mb-0 mr-1" for="uploadImg"><i class="fa fa-camera imgAdd" style="line-height: 22px; height: 22px; width: 22px !important;"></i></label><input id="uploadImg" type="file" name="profilePic" class="uploadFile img" value="Upload Photo" style="width: 0px;height: 0px;overflow: hidden;">            
             <div class="text-box" contenteditable="true" data-text="Type your question" disabled="true"></div>
             <button id="sendMessage"><img class="img-fluid" src="img/send-button.svg"></button>
         </div>

@@ -1,3 +1,22 @@
+/*--------------------------------------------------------------
+# General
+// VERSION: 1.1 - UPDATED ON 18-04-2020 17:55;
+--------------------------------------------------------------*/
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url('Poppins-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('Poppins-Regular.ttf');
+}
+
 html, body {
   height: 100%;
   width: 100%;
